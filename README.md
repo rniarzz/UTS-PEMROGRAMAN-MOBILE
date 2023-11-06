@@ -12,6 +12,7 @@
 
 ini adalah kodingan utama untuk menjalankan program bilangan fibonacci
 
+```java
     package com.hellotoast;
     
     import android.os.Bundle;
@@ -92,13 +93,13 @@ ini adalah kodingan utama untuk menjalankan program bilangan fibonacci
     }
     }
 
+```
 ### output
 
-<img width="960" alt="Screenshot 2023-11-05 181949" src="https://github.com/Wizzs1/UTS-Pemrograman-Mobile/assets/110619093/4602d491-1de3-4ec5-aeef-d6ac867e2430">
+![Screenshot (365)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/5094d761-7200-49a3-9897-ce2d1579e61f)
 
+![Screenshot (364)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/38a0d234-440e-4b52-8618-4d239cf6e066)
 
-<img width="960" alt="Screenshot 2023-11-05 181928" src="https://github.com/Wizzs1/UTS-Pemrograman-Mobile/assets/110619093/3abaf990-de07-46fd-b292-d3d3113f89ad">
-
-<h1 <p align="center"><b>Praktikum 6</b></p></h1> 
+![Screenshot (363)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/711f827a-1f53-4d92-8b71-e2fb94d5d6d3)
 
 <h1 <p align="center"><b>======== Sekian Terima Kasih ==========</b></p></h1>
