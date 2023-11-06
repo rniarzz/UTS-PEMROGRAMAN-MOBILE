@@ -1,10 +1,12 @@
-| 🐻 | DATA MAHASISWA |
-| -------- | --- |
-| **Nama** | Wisnu Ikhwansyah Saputra|
-| **NIM** | 312010305 |
-| **Kelas** | TI.22.A3 |
-| **Mata Kuliah** | Pemrograman Mobile |
+<h1 <p align="center"><b>UTS MOBILE</b></p></h1> 
 
+**Nama: Rini Ariza**
+
+**NIM: 312210337**
+
+**Kelas: TI.22.A3**
+
+---
 
 ## Menambahkan Kodingan Java
 
@@ -96,3 +98,7 @@ ini adalah kodingan utama untuk menjalankan program bilangan fibonacci
 
 
 <img width="960" alt="Screenshot 2023-11-05 181928" src="https://github.com/Wizzs1/UTS-Pemrograman-Mobile/assets/110619093/3abaf990-de07-46fd-b292-d3d3113f89ad">
+
+<h1 <p align="center"><b>Praktikum 6</b></p></h1> 
+
+<h1 <p align="center"><b>======== Sekian Terima Kasih ==========</b></p></h1>
