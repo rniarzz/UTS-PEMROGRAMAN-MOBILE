@@ -1,5 +1,3 @@
-![Screenshot (365)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/5e716fd6-6038-4c3a-b4fb-3aca71b2f0c3)<h1 <p align="center"><b>UTS MOBILE</b></p></h1> 
-
 **Nama: Rini Ariza**
 
 **NIM: 312210337**
@@ -98,7 +96,11 @@ ini adalah kodingan utama untuk menjalankan program bilangan fibonacci
 
 ![Screenshot (365)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/6300f179-2918-4a2a-a06b-9f36f9566d60)
 
+---
+
 ![Screenshot (364)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/710cb2e6-60ef-4e07-8f1c-7be2eed8e2c0)
+
+---
 
 ![Screenshot (363)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/e2c01031-70e2-48d6-9389-e8f06cb0786a)
 
