@@ -14,22 +14,22 @@ Dalam program ini Saya diberikan tugas sebagai berikut:
 
 ---
 
-## Menambahkan Kodingan Java
+## Membuat method di java
 
 ini adalah kodingan utama untuk menjalankan program bilangan fibonacci
 
 ```java
-    package com.hellotoast;
-    
-    import android.os.Bundle;
-    import android.view.View;
-    import android.widget.EditText;
-    import android.widget.TextView;
-    import android.widget.Toast;
-    
-    import androidx.appcompat.app.AppCompatActivity;
+package com.hellotoast;
 
-    public class MainToast extends AppCompatActivity {
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainToast extends AppCompatActivity {
     private TextView showCount;
     private int count = 0;
     private long fibNMinus1 = 1;
@@ -97,7 +97,7 @@ ini adalah kodingan utama untuk menjalankan program bilangan fibonacci
         fibNMinus2 = 0;
         updateCountDisplay();
     }
-    }
+}
 
 ```
 ### output
