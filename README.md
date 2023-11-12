@@ -1,4 +1,4 @@
- <p align="center"><b>UTS Pemrograman Mobile</b></p></h1> 
+<h1 align="center"><b>UTS Pemrograman Mobile</b></h1> 
 
 **Nama: Rini Ariza**
 
