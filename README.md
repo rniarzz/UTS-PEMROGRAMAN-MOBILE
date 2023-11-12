@@ -1,4 +1,4 @@
-click<h1 <p align="center"><b>UTS Pemrograman Mobile</b></p></h1> 
+ <p align="center"><b>UTS Pemrograman Mobile</b></p></h1> 
 
 **Nama: Rini Ariza**
 
@@ -12,6 +12,7 @@ Dalam program ini Saya diberikan tugas sebagai berikut:
 
 ![Screenshot_2023-11-11-22-23-41-896_com google android apps docs](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/fc81c6a6-c5a8-4255-b2dd-0b14df36472e)
 
+---
 
 ## Menambahkan Kodingan Java
 
