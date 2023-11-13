@@ -102,7 +102,7 @@ public class MainToast extends AppCompatActivity {
 ```
 ---
 
-Disini saya menggunakan package dengan nama `com.hellotoast`, kemudian dibawahnya diikuti perintah `import` yang berfungsi untuk memanggil suatu kelas dalam java
+- Disini saya menggunakan package dengan nama `com.hellotoast`, kemudian dibawahnya diikuti perintah `import` yang berfungsi untuk memanggil suatu kelas dalam java
 ```java
 package com.hellotoast;
 
@@ -115,7 +115,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 ```
 
-Berikut ini adalah syntax untuk mendeklarasikan variable
+- Saya menggunakan class dengan nama `MainToast`, selanjutnya diikuti perintah `private` untuk mendeklarasikan suatu variabel
 ```java
 public class MainToast extends AppCompatActivity {
     private TextView showCount;
