@@ -100,8 +100,24 @@ public class MainToast extends AppCompatActivity {
 }
 
 ```
+---
+
+Disini saya menggunakan package dengan nama `com.hellotoast`, kemudian dibawahnya diikuti perintah `import` yang berfungsi untuk memanggil suatu kelas dalam java
+```java
+package com.hellotoast;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+```
 
 Berikut ini adalah syntax untuk mendeklarasikan variable
+
+
 ### output
 
 ![Screenshot (365)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/6300f179-2918-4a2a-a06b-9f36f9566d60)
