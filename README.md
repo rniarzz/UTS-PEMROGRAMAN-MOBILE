@@ -125,7 +125,7 @@ public class MainToast extends AppCompatActivity {
     private EditText edit_max_fibonacci;
 ```
 
-- Selanjutnya mendeklarasikan method `onCreate`. Method ini dipanggil ketika aktivitas baru pertama kali dibuat
+- Selanjutnya mendeklarasikan method `onCreate`. Method ini dipanggil ketika aktivitas baru pertama kali dibuat. Disini kita menginisialisasi variabel dalam `onCreate`
 ```java
 protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
