@@ -116,7 +116,14 @@ import androidx.appcompat.app.AppCompatActivity;
 ```
 
 Berikut ini adalah syntax untuk mendeklarasikan variable
-
+```java
+public class MainToast extends AppCompatActivity {
+    private TextView showCount;
+    private int count = 0;
+    private long fibNMinus1 = 1;
+    private long fibNMinus2 = 0;
+    private EditText edit_max_fibonacci;
+```
 
 ### output
 
