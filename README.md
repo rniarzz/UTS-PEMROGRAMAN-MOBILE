@@ -115,7 +115,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 ```
 
-- Saya menggunakan class dengan nama `MainToast`, selanjutnya diikuti perintah `private` untuk mendeklarasikan suatu variabel
+- Saya menggunakan class dengan nama `MainToast`, selanjutnya diikuti perintah `private` untuk mendeklarasikan suatu variabel dalam sebuah class
 ```java
 public class MainToast extends AppCompatActivity {
     private TextView showCount;
