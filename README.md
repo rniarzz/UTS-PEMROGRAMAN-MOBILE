@@ -125,7 +125,7 @@ public class MainToast extends AppCompatActivity {
     private EditText edit_max_fibonacci;
 ```
 
-- Selanjutnya mendeklarasikan method `onCreate`. Method ini dipanggil ketika aktivitas baru pertama kali dibuat. Disini kita menginisialisasi variabel dalam `onCreate`
+- Selanjutnya mendeklarasikan method `onCreate`, Method ini dipanggil ketika aktivitas baru pertama kali dibuat, Disini kita menginisialisasi variabel dalam `onCreate`
 ```java
 protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -141,7 +141,22 @@ protected void onCreate(Bundle savedInstanceState) {
     }
 ```
 
-- 
+- Berikut codingan untuk mengganti warna text ketika setiap kali mengklik tombol count
+```java
+private void updateCountDisplay() {
+        showCount.setText(String.valueOf(fibNMinus2));
+
+        if (count % 4 == 0) {
+            showCount.setTextColor(getResources().getColor(R.color.colorPrimary));
+        } else if (count % 4 == 1) {
+            showCount.setTextColor(getResources().getColor(R.color.colorAccent));
+        } else if (count % 4 == 2) {
+            showCount.setTextColor(getResources().getColor(R.color.colorPrimary));
+        } else {
+            showCount.setTextColor(getResources().getColor(R.color.colorAccent));
+        }
+    }
+```
 
 ### output
 
