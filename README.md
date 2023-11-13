@@ -125,6 +125,22 @@ public class MainToast extends AppCompatActivity {
     private EditText edit_max_fibonacci;
 ```
 
+- Selanjutnya mendeklarasikan method `onCreate`. Method ini dipanggil ketika aktivitas baru pertama kali dibuat
+```java
+protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_toast);
+
+        showCount = findViewById(R.id.show_count);
+        edit_max_fibonacci = findViewById(R.id.edit_max_fibonacci);
+
+        updateCountDisplay();
+
+        fibNMinus1 = 0;
+        fibNMinus2 = 1;
+    }
+```
+
 ### output
 
 ![Screenshot (365)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/6300f179-2918-4a2a-a06b-9f36f9566d60)
