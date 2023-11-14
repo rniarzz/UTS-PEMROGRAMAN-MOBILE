@@ -166,6 +166,31 @@ public void showToast(View view){
     }
 ```
 
+- Selanjutnya buat codingan untuk menghitung bilangan fibonacci, disini juga terdapat codingan untuk membatasi jumlah maksimal bilangan fibonacci yg dapat di hitung, berikut codingannya
+```java
+public void countUp(View view) {
+        int maxFibonacci = Integer.parseInt(edit_max_fibonacci.getText().toString());
+
+        if (count >= maxFibonacci) {
+            Toast.makeText(this, "Maksimum Fibonacci tercapai", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        long fibCurrent;
+        if (count == 0 || count == 0) {
+            fibCurrent = 1;
+        } else {
+            fibCurrent = fibNMinus1 + fibNMinus2;
+        }
+
+        fibNMinus2 = fibNMinus1;
+        fibNMinus1 = fibCurrent;
+        updateCountDisplay();
+
+        count++;
+    }
+```
+
 ### output
 
 ![Screenshot (365)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/6300f179-2918-4a2a-a06b-9f36f9566d60)
