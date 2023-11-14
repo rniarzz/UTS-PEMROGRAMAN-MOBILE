@@ -158,6 +158,14 @@ private void updateCountDisplay() {
     }
 ```
 
+- Berikut ini codingan untuk menampilkan pesan pop-up singkat kepada pengguna, Ketika mengklik tombol Toast maka di layar akan muncul kalimat "Bilangan Fibonacci"
+```java
+public void showToast(View view){
+        Toast.makeText(this, "Bilangan Fibonacci",
+                Toast.LENGTH_SHORT).show();
+    }
+```
+
 ### output
 
 ![Screenshot (365)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/6300f179-2918-4a2a-a06b-9f36f9566d60)
