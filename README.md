@@ -206,7 +206,7 @@ public void back1(View view) {
 }
 ```
 ---
-### output
+## Output
 
 ![Screenshot (365)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/6300f179-2918-4a2a-a06b-9f36f9566d60)
 
