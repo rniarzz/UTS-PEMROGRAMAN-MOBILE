@@ -114,7 +114,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 ```
-
+---
 - Saya menggunakan class dengan nama `MainToast`, selanjutnya diikuti perintah `private` untuk mendeklarasikan suatu variabel dalam sebuah class
 ```java
 public class MainToast extends AppCompatActivity {
@@ -124,7 +124,7 @@ public class MainToast extends AppCompatActivity {
     private long fibNMinus2 = 0;
     private EditText edit_max_fibonacci;
 ```
-
+---
 - Selanjutnya mendeklarasikan method `onCreate`, Method ini dipanggil ketika aktivitas baru pertama kali dibuat, Disini kita menginisialisasi variabel dalam `onCreate`
 ```java
 protected void onCreate(Bundle savedInstanceState) {
@@ -140,7 +140,7 @@ protected void onCreate(Bundle savedInstanceState) {
         fibNMinus2 = 1;
     }
 ```
-
+---
 - Berikut codingan untuk mengganti warna text ketika setiap kali mengklik tombol count
 ```java
 private void updateCountDisplay() {
@@ -157,7 +157,7 @@ private void updateCountDisplay() {
         }
     }
 ```
-
+---
 - Berikut ini codingan untuk menampilkan pesan pop-up singkat kepada pengguna, Ketika mengklik tombol Toast maka di layar akan muncul kalimat "Bilangan Fibonacci"
 ```java
 public void showToast(View view){
@@ -165,7 +165,7 @@ public void showToast(View view){
                 Toast.LENGTH_SHORT).show();
     }
 ```
-
+---
 - Selanjutnya buat codingan untuk menghitung bilangan fibonacci, disini juga terdapat codingan untuk membatasi jumlah maksimal bilangan fibonacci yg dapat di hitung, berikut codingannya
 ```java
 public void countUp(View view) {
@@ -190,7 +190,18 @@ public void countUp(View view) {
         count++;
     }
 ```
-
+---
+- Berikut ini codingan untuk kembali ke home (kembali ke angka 0) ketika mengklik tombol back
+```java
+public void back1(View view) {
+        count = 1;
+        fibNMinus1 = 1;
+        fibNMinus2 = 0;
+        updateCountDisplay();
+    }
+}
+```
+---
 ### output
 
 ![Screenshot (365)](https://github.com/rniarzz/UTS-PEMROGRAMAN-MOBILE/assets/115542704/6300f179-2918-4a2a-a06b-9f36f9566d60)
