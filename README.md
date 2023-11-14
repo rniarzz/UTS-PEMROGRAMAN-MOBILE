@@ -102,6 +102,8 @@ public class MainToast extends AppCompatActivity {
 ```
 ---
 
+## Penjelasan codingan java
+
 - Disini saya menggunakan package dengan nama `com.hellotoast`, kemudian dibawahnya diikuti perintah `import` yang berfungsi untuk memanggil suatu kelas dalam java
 ```java
 package com.hellotoast;
